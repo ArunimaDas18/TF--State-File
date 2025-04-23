@@ -1,0 +1,29 @@
+name: "Terraform Infrastructure Change Management Pipeline with GitHub Actions"
+
+on:
+  push:
+    branches:
+    - main
+    paths:
+
+
+jobs:
+  terraform build and delpoy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout from repository
+      uses: actions/checkout@v3
+
+    - name: Initialization
+      uses:
+        #init
+
+
+    - name: Validate
+      uses:
+        #plan 
+
+
+
+    - name: Build
+      uses: #Tf build
